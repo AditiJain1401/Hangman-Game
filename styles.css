@@ -1,0 +1,34 @@
+body {
+    background-image: linear-gradient(to right, #606c88, #3f4c6b);
+    color: white;
+    text-align: center;
+    margin: top 20px;
+}
+
+.hint {
+    display: flex;
+    color: chartreuse;
+}
+
+.hint-btn,
+.restart-btn {
+    cursor: pointer;
+}
+
+.restart-btn {
+    margin-left: 30px;
+}
+
+.alphabets {
+    width: 2rem;
+    height: 2rem;
+    background-color: #ffe5b4;
+    border: none;
+    border-radius: 4px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.alphabets:hover {
+    background-color: #e75480;
+}
