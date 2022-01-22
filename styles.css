@@ -5,6 +5,21 @@ body {
     margin: top 20px;
 }
 
+p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.word {
+    margin-bottom: 30px;
+}
+
+.wordBtn {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+}
+
 .hint {
     display: flex;
     color: chartreuse;
@@ -13,6 +28,7 @@ body {
 .hint-btn,
 .restart-btn {
     cursor: pointer;
+    margin-top: 30px;
 }
 
 .restart-btn {
@@ -20,15 +36,23 @@ body {
 }
 
 .alphabets {
-    width: 2rem;
-    height: 2rem;
+    margin: 15px auto;
+    max-width: 470px;
+}
+
+.alphabetBtn {
     background-color: #ffe5b4;
     border: none;
     border-radius: 4px;
     margin: 3px;
     cursor: pointer;
+    font-size: 1rem;
+    color: black;
+    height: 30px;
+    width: 30px;
+    font-weight: bolder;
 }
 
-.alphabets:hover {
+.alphabetBtn:hover {
     background-color: #e75480;
 }
