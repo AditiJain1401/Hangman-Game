@@ -3,11 +3,16 @@ body {
     color: white;
     text-align: center;
     margin: top 20px;
+    font-size: 20px;
 }
 
 p {
-    font-size: 20px;
     font-weight: bolder;
+}
+
+h3 {
+    color: chartreuse;
+    font-style: italic;
 }
 
 .word {
@@ -21,8 +26,10 @@ p {
 }
 
 .hint {
-    display: flex;
     color: chartreuse;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .hint-btn,
